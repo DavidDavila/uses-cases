@@ -1,0 +1,45 @@
+body{	
+    max-width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+}
+
+body.hideContent{
+	display: block;
+	height: 100vh;
+	overflow: hidden;
+}
+
+body > div {
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+body > div.hide {
+	opacity: 0;
+	z-index: -1 !important;
+	transition: opacity 350ms ease-in-out, z-index 350ms linear 500ms;
+}
+
+body > div#first {
+width: 100%;	
+}
+body > div#second {
+display: none;
+    background: white;
+	
+	text-align: center;
+	width: 100vw;
+}
+body > div#third {
+	display: none;
+}
+
+body > div#second img{
+    width: 100vw;
+}
+
+
+body > div > img{
+	width: 100%;
+}

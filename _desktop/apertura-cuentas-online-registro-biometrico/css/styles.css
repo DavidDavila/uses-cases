@@ -1,0 +1,37 @@
+body{
+	max-width: 100vw;
+	overflow-x: hidden;
+	position: relative;
+}
+
+body > div{
+	position: absolute;
+    width: 100%;
+    background: white;
+	top: 0;
+	left: 0;
+}
+body > div > img{
+	width: 100%;
+}
+
+body > div#first{
+	z-index: 9;
+}
+body > div#finish{
+	z-index: 7;
+	display: none;
+}
+body > div.hide{
+	opacity: 0;
+	display: none !important;
+	transition: opacity 350ms ease-in-out, display 350ms linear 500ms; 
+}
+#video{
+	width: 100%;
+	height: 100vh;
+}
+
+div.videoid-notification.notification-image{
+	display: none !important;
+}

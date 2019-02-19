@@ -1,0 +1,53 @@
+body{
+
+	max-width: 100vw;
+	overflow-x: hidden;
+	position: relative;
+}
+
+body > div{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+body > div#first{
+	z-index: 9;
+}
+
+body > div#finish{
+	z-index: 7;
+	display: none;
+}
+
+body > div.hide{
+	opacity: 0;
+	display: none;
+	transition: opacity 350ms ease-in-out, display 350ms linear 500ms;
+}
+
+body > div > img{
+	width: 100%;
+}
+
+
+#video{
+	width: 100%;
+	height: 100vh;
+	position: absolute !important;
+    z-index: 8;
+}
+#eid-agent-video video {
+
+    width: 173px;
+    height: 130px;
+}
+#eid-agent-video {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+#videoid-container-media-notification{
+	display: none;
+}

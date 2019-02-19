@@ -1,0 +1,51 @@
+body, html{
+	height: 100%;
+}
+.step1{
+	background-color: rgba(69, 69, 69, 1);
+	text-align: center;
+}
+.step1 img {
+	
+	width: 945px;
+}
+.step3 img{
+	height: 100%;
+}
+.step1 button{
+	position: fixed;
+	bottom: 57px;
+	padding: 10px 51px;
+	color:#fff;	
+	left: 50%;
+	transform: translateX(-50%);
+	font-family: 'Raleway';
+	font-size: 50px;
+	padding: 20px 30px;
+	font-weight: 600;
+	color: rgba(255, 255, 255, 1);
+	text-align: center;
+	right: 56px;
+	cursor: pointer;
+	border: 0;
+	outline: none;
+	background-image: -webkit-linear-gradient(-20deg, rgba(133, 193, 188, 1) 0%, rgba(206, 213, 82, 1) 100%);
+	background-image: -moz-linear-gradient(-20deg, rgba(133, 193, 188, 1) 0%, rgba(206, 213, 82, 1) 100%);
+	background-image: -o-linear-gradient(-20deg, rgba(133, 193, 188, 1) 0%, rgba(206, 213, 82, 1) 100%);
+	background-image: linear-gradient(-20deg, rgba(133, 193, 188, 1) 0%, rgba(206, 213, 82, 1) 100%);
+}
+.step2{
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+.step3{
+	display: none;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.step2 #video{
+	width: 100%;
+	height: 100%;
+}

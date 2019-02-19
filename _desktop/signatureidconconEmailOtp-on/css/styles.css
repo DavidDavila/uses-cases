@@ -1,0 +1,136 @@
+body, html{
+	height: 100%;
+}
+.step1{
+}
+.step1 img,.step3 img{
+	width: 100%;
+	height: auto;
+}
+button{
+	cursor: pointer;
+	position: fixed;
+	bottom: 40px;
+	padding: 10px 51px;
+	color:#fff;	
+	font-family: 'Raleway';
+	font-size: 32px;
+	font-weight: 600;
+	color: rgba(255, 255, 255, 1);
+	text-align: center;
+	left: 50%;
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+	border: 0;
+	outline: none;
+	background-image: -webkit-linear-gradient(-20deg, rgba(133, 193, 188, 1) 0%, rgba(206, 213, 82, 1) 100%);
+	background-image: -moz-linear-gradient(-20deg, rgba(133, 193, 188, 1) 0%, rgba(206, 213, 82, 1) 100%);
+	background-image: -o-linear-gradient(-20deg, rgba(133, 193, 188, 1) 0%, rgba(206, 213, 82, 1) 100%);
+	background-image: linear-gradient(-20deg, rgba(133, 193, 188, 1) 0%, rgba(206, 213, 82, 1) 100%);
+}
+.step2 input, .step3 input{
+	font-family: 'Raleway';
+	font-size: 28px;
+	color: rgba(45, 45, 45, 1);
+	text-align: center;
+	-webkit-transform: scale(1.11);
+	-ms-transform: scale(1.11);
+	transform: scale(1.11);
+	height: 65px;
+	background-color: rgba(245, 245, 245, 1);
+	width: 458px;
+	border:0;
+	outline: none;
+	margin-bottom: 77px;
+	height: 51px;
+	width: 287px;
+}
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.step2 p, .step3 p {
+	margin-bottom: 69px;
+	font-family: 'Raleway';
+	font-size: 28px;
+	color: rgba(45, 45, 45, 1);
+	text-align: center;
+}
+.step2 h2, .step3 h2{
+	margin-bottom: 38px;
+	font-family: 'Raleway';  
+	font-size: 45px;
+	font-weight: 600;
+	text-align: center;
+	background: -webkit-linear-gradient(left, rgba(181, 191, 3, 1) 40%, rgba(133, 193, 188, 1) 60%);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+}
+.step2, .step3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	display: none;
+	max-width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+.step2 button, .step3 button{
+	position: static;
+	left: 0;
+	transform: none;
+}
+.step3{
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+.step3 input{
+margin-bottom: 73px;
+}
+.step3 span{
+	font-family: 'Raleway';
+	font-size: 18px;
+	color: rgba(145, 145, 145, 1);
+	text-align: center;
+	/*Text styles for Modify it */
+	font-family: 'Raleway';
+	font-size: 18px;
+	text-align: center;
+margin-bottom: 34px;
+display: block;
+
+}
+.step3 span a{
+	font-family: 'Raleway';
+	font-size: 18px;
+	color: rgba(181, 191, 3, 1);
+	text-align: center;
+	/*Text styles for Modify it */
+	font-family: 'Raleway';
+	font-size: 18px;
+	color: rgba(181, 191, 3, 1);
+	text-align: center;
+	text-decoration: none;
+}
+.step2 #video{
+	width: 100%;
+	height: 100%;
+}
+.step4{
+	width: 100%;	
+    text-align: center;
+	height: 100%;
+	display: none;
+}
+.step4 img{
+	height: 100%;
+	margin: 0 auto;
+
+}

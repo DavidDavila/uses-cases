@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="css/styles.css" type="text/css"></link>
+  <link rel="stylesheet" href="css/reset.css" type="text/css"></link>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <title></title>
+
+</head>
+<body>
+	<div class="step1">
+		<img src="./img/1.png" alt="">
+		<button>SIGN PDF</button>
+	</div>
+	<div class="step2">	
+    <h2>Please enter your phone</h2>	
+    <p>You will receive an SMS 
+      with the necessary code to sign:</p>
+    <input type="number">
+    <button>Send Code</button>
+	</div>
+    <div class="step3"> 
+    <h2>Verification code</h2>  
+    <p>Enter the verification code we have sent to your phone:</p>
+    <input type="number">
+    <span>Your phone number is not correct? 
+      <a href="">Modify it here</a>
+    </span>
+    <button>SIGN PDF</button>
+  </div>
+  <div class="step4">
+    <img src="./img/3.gif" alt="">
+  </div>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="https://etrust-sandbox.electronicid.eu/v2/js/smileid.js"></script>
+  <script src="js/init.js"></script>
+</body>
+</html>
