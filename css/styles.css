@@ -1,0 +1,97 @@
+html body{
+	width: auto;
+	height: auto;
+	max-width: 100vw;
+	background: white;
+    overflow-x: hidden;
+}
+html body div.menu{
+    position: fixed;
+    z-index: 10;
+}
+html body div.menu,
+html body img{
+	width: 100%;
+}
+html body .containerImages {
+    position: relative;
+    width: 100vw;
+    background: white;
+    height: 100vh;
+    overflow-x:hidden;
+}
+html body .containerImages img {
+    position: absolute;
+    transition: transform 350ms ease-in-out;
+}
+
+.containerImages img#img1{
+	z-index: 1;
+}
+.containerImages img#img1.toL{
+    transform: translateX(-100vw);
+}
+
+.containerImages img#img2{
+    -webkit-transform: translateX(100vw);
+    transform: translateX(100vw);
+}
+.containerImages img#img2.fromR{
+    transform: translateX(0vw);
+}
+
+span#purchase{
+	cursor: pointer;
+    display: block;
+    position: absolute;
+    z-index: 3;
+    bottom: -100vh;
+    height: 50vh;
+    width: 60vw;
+    left: 20vw;
+	display: block; 
+	position: absolute;
+	z-index: 3;
+}
+
+span.goTo{	
+	position: fixed;
+	top: 0;
+	z-index: 2;
+	width: 20vw;
+	height: 100vh;
+	display: block;
+}
+span.goTo#left{
+	left: 0;
+}	
+span.goTo#right{
+	right: 0;	
+}	
+
+div#finished{	
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+}
+div#finished.visible{	
+	z-index: 99;
+	visibility: visible;
+}
+
+div#video{
+	width: 100vw;
+	position: fixed;
+	z-index: 999;
+	height: 100vh;
+	top: 0;
+	/*eliminar*/
+    z-index: -1;
+}
+div#video.toFront{
+    z-index: 10;
+    background: #fff;
+}
